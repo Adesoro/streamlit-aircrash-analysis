@@ -71,7 +71,7 @@ with col2:
 
 
 with col1:
-    st.info('Airplane Crashes', icon ='📌')
+    st.info('Total Crashes', icon ='📌')
     st.metric(label='Crashes', value=f"{number_of_crashes:,}")
 
 
